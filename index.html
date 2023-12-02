@@ -19,7 +19,7 @@
         }
 
         h1 {
-            color: #007bff;
+            color: #2a833a;
         }
 
         p {
@@ -28,7 +28,7 @@
         }
 
         .footer {
-            background-color: #343a40;
+            background-color: #93d19e;
             color: white;
             padding: 15px 0;
             position: fixed;
@@ -83,11 +83,11 @@
     </div>
 
     <div class="footer">
-        <a href="#" onclick="openModal('Terms and Conditions')">Terms and Conditions</a> |
-        <a href="#" onclick="openModal('Contact Us')">Contact Us</a> |
-        <a href="#" onclick="openModal('Cancellation and Refund Policy')">Cancellation and Refund Policy</a> |
-        <a href="#" onclick="openModal('Privacy Policy')">Privacy Policy</a> |
-        <a href="#" onclick="openModal('Shipping and Delivery Policy')">Shipping and Delivery Policy</a>
+        <a href="#" onclick="openModal('modalTerms')">Terms and Conditions</a> |
+        <a href="#" onclick="openModal('modalContact')">Contact Us</a> |
+        <a href="#" onclick="openModal('modalcnr')">Cancellation and Refund Policy</a> |
+        <a href="#" onclick="openModal('modalprivacy')">Privacy Policy</a> |
+        <a href="#" onclick="openModal('modalship')">Shipping and Delivery Policy</a>
     </div>
 
     <!-- Modal for Policies -->
@@ -102,6 +102,24 @@
         <div class="modal-content">
             <span class="close" onclick="closeModal('modalContact')">&times;</span>
             <p>Contact Us content goes here.</p>
+        </div>
+    </div>
+    <div id="modalcnr" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modalTerms')">&times;</span>
+            <p>Terms and Conditions content goes here.</p>
+        </div>
+    </div>
+    <div id="modalprivacy" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modalTerms')">&times;</span>
+            <p>Terms and Conditions content goes here.</p>
+        </div>
+    </div>
+      <div id="modalship" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modalTerms')">&times;</span>
+            <p>Terms and Conditions content goes here.</p>
         </div>
     </div>
 
