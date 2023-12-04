@@ -1,0 +1,81 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedTrade - Coming Soon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            text-align: left;
+        }
+
+        .container {
+            padding: 80px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2a833a;
+        }
+        h3 {
+            text-align: center;
+            color: #2a833a;
+        }
+
+        p {
+            font-size: 16px;
+            color: #6c757d;
+            margin-bottom: 20px;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .footer {
+            background-color: #93d19e;
+            color: white;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* ... Your existing styles ... */
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <button onclick="window.location.href='index.html'" style="background-color: #93d19e; color: white; border: none; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;">Back to Home</button>
+    </div>
+
+    <h1>Cancellations & Refunds Policy</h1>
+            <p>No cancellations & Refunds are entertained</p>
+
+    <div class="footer">
+        <a href="terms_conditions.html">Terms and Conditions</a> |
+        <a href="contact_us.html">Contact Us</a> |
+        <a href="cancellation_refund_policy.html">Cancellation and Refund Policy</a> |
+        <a href="privacy_policy.html">Privacy Policy</a> |
+        <a href="shipping_delivery_policy.html">Shipping and Delivery Policy</a>
+    </div>
+
+    <!-- Remove the modal div elements -->
+
+    <script>
+        // Remove the openModal and closeModal functions
+
+        // Optional: If you want to open links in the same tab by default
+        document.querySelectorAll('.footer a').forEach(link => {
+            link.setAttribute('target', '_self');
+        });
+    </script>
+</body>
+</html>  
